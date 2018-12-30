@@ -1,0 +1,300 @@
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/*____________________________________________________________________________________________________________*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ padding: 5px;
+ margin: 5px;
+}
+button {
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ top: 75px;
+ left: -60px;
+}
+h1 {
+
+}
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.Section-One-Box-One {
+ border: solid black 2px;
+ height: 415px;
+}
+.Section-One-Box-Two {
+ padding: 5px;
+ margin: 5px;
+ width: 976px;
+ border: 2px solid black;
+ height: 400px;
+ background: red;
+}
+.Section-Two-Box-One {
+    border: solid black 2px;
+    height: 415px;
+}
+.Section-Two-Box-Two {
+    padding: 5px;
+    margin: 5px;
+    width: 976px;
+    border: 2px solid black;
+    height: 400px;
+    background: red;  
+}
+.Section-Three-Box-One {
+    border: solid black 2px;
+    height: 615px;
+}
+.Section-Three-Box-Two {
+    padding: 5px;
+    margin: 5px;
+    width: 976px;
+    border: 2px solid black;
+    height: 600px;
+    background: red;  
+}
+.setup-box1 {
+ border: solid black 2px;
+ width: 1000px;
+ padding: 3px;
+ margin: 3px;
+}
+.setup-box2 {
+ border: solid black 2px;
+ background: blue;
+ opacity: 0.3;
+ width: 1400px;
+}
+.section1-div1 {
+ border: solid black 5px;
+ width: 420px;
+ float: left;
+ padding: 5px;
+ margin: 5px;
+ height: 375px;
+}
+.section1-div2 {
+ border: solid black 5px;
+ width: 520px;
+ float: right;
+ height: 375px;
+ padding: 5px;
+ margin: 5px;
+}
+.section2-div1 {
+ border: solid black 5px;
+ float: left;
+ height: 180px;
+ width: 430px;
+ position: relative;
+ left: 5px;
+}
+.section2-div2 {
+    border: solid black 5px;
+    float: right;
+    height: 180px;
+    width: 380px;
+    position: relative;
+    top: -101px;
+    left: -189px;
+    -ms-tranform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.section2-div22 {
+    border: solid black 5px;
+    float: right;
+    height: 180px;
+    width: 380px;
+    position: relative;
+    top: -101px;
+    left: 435px;
+    -ms-tranform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.section2-div11 {
+    border: solid black 5px;
+    float: left;
+    height: 205px;
+    width: 220px;
+    position: relative;
+    top: 180px;
+    left: -425px;
+}
+.section2-div12 {
+    border: solid black 5px;
+    float: left;
+    height: 205px;
+    width: 212px;  
+    position: relative;
+    top: 180px;
+    left: -427px;  
+}
+.section3-div1 {
+    border: solid black 5px;
+    width: 420px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    height: 375px;
+}
+.section3-div2 {
+    border: solid black 5px;
+    width: 420px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    height: 175px;
+    position: relative;
+    top: 392px;
+    left: -430px;
+}
+.section3-div3 {
+    border: solid black 5px;
+    width: 520px;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    height: 325px;  
+    -ms-tranform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    position: relative;
+    top: -60px;
+}
+/*_______________________________________*/
+.header {
+ position: relative;
+ left: -60px;
+}
+.section1-div1-image {
+ float: left;
+ padding: 5px;
+ margin: 5px;
+}
+.section1-div1-paragraph {
+ border: solid blue 2px;
+ max-width: 200px;
+ position: relative;
+ top: 5px;
+ left: 100px;
+ padding: 5px;
+ margin: 5px;
+}
+.description-paragraph-background {
+ background: blue;
+ border: solid blue 2px;
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ top: 20px;
+ height: 150px;
+}
+.description-paragraph-background2 {
+    background: blue;
+    border: solid blue 2px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    top: 20px;
+    height: 139px;
+}
+.section2-div1-title {
+ background: blue;
+ height: 35px;
+}
+.section3-div1-title {
+ background: blue;
+ height: 35px;
+}
+.section3-div1-title-position {
+    background: blue;
+    height: 35px;
+}
+.section3-div1-title-position2 {
+    background: green;
+    height: 35px;
+}
+.section3-div1-title-position23 {
+    background: green;
+    height: 35px;
+    opacity: 0.9;
+}
+.section3-div1-title-position24 {
+    background: green;
+    height: 35px;
+    opacity: 0.6;
+}
+.section3-div1-title-position25 {
+    background: green;
+    height: 35px;
+    opacity: 0.4;
+}
+.section3-div1-title-position26 {
+    background: green;
+    height: 35px;
+    opacity: 0.2;
+}
+.title {
+ 
+}
+.img2 {
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ left: 27px;
+}
+.img3 {
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ left: -107px;
+ top: 18px;
+ border-radius: 150px 150px 150px 150px;
+}
+.img4 {
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ left: -5px;
+ top: -2px;
+}
+.section2-div2-paragraph {
+ -ms-tranform: rotate(270deg);
+ -webkit-transform: rotate(270deg);
+ position: relative;
+ top: -60px;
+}
+/*______END HTML TAGS______*/
+/*______END CLASS NAMES______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*<!--______END STYLESHEET FUNCTIONS______-->*/
